@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "233895583210",
+    "firebase_url": "https://uas-android-de7ae-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uas-android-de7ae",
+    "storage_bucket": "uas-android-de7ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233895583210:android:685bbb3851bd8d8c19e693",
+        "android_client_info": {
+          "package_name": "com.example.uas_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233895583210-r4hirbe42a64gbqrkop6t48c803drs9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHvlwRPB_u5bUfec_w3fgxnRR6JX9f1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233895583210-r4hirbe42a64gbqrkop6t48c803drs9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

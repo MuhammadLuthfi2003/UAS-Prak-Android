@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddComplaint">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Tambah Aduan Baru"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Judul Kejadian"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#3F51B5"
+        android:ems="10"
+        android:hint="Inputkan Judul Aduan"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_title"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Isi Kejadian"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/add_content"
+        android:layout_width="304dp"
+        android:layout_height="101dp"
+        android:layout_below="@id/textView7"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Tanggal Kejadian"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Pilih" />
+
+    <TextView
+        android:id="@+id/add_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/btn_datepicker"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/btn_datepicker"
+        android:text="Belum memilih tanggal" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_datepicker"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Lokasi Kejadian"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/add_location"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView13"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Tempat kejadian terjadi"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/add_submit"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="TAMBAH DATA" />
+
+</RelativeLayout>
